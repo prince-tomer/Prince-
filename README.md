@@ -1,1 +1,1 @@
-this file contains dsa question and its solution.
+this file contains dsa questions and their solutions.
