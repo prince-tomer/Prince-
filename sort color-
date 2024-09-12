@@ -1,3 +1,5 @@
+solved using three pointer for obtaining time comp of O(N). 
+
 class Solution {
     public void sortColors(int[] nums) {
         int low=0;
