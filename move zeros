@@ -1,3 +1,8 @@
+used two pointer approch 
+j = index of first zero
+i iterates and swap with j for nums[i]!=0
+
+
 class Solution {
     public void moveZeroes(int[] nums) {
         int n=nums.length;
