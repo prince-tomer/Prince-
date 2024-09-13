@@ -1,0 +1,27 @@
+used tortoise and hare method
+
+
+public class Solution {
+    public boolean hasCycle(ListNode head) {
+        ListNode slow=head;
+        ListNode fast=head;
+        int temp=0;
+        while(fast!=null&&fast.next!=null)
+        {
+            slow=slow.next;
+            fast=fast.next.next;
+            if(slow==fast)
+            {   temp=1;
+                break;
+            }
+        }
+        if(temp==1)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+}
